@@ -1,0 +1,67 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: cursive;
+}
+
+#container {
+    margin-top: 1rem;
+    padding: 5px;
+    text-align: center;
+}
+
+h1 {
+    background-color: darkcyan;
+    padding: 10px;
+}
+
+#searchValue {
+    width: 220px;
+    margin-right: 10px;
+    padding: 5px;
+    font-size: 16px;
+}
+
+#btn {
+    width: 100px;
+    padding: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    
+}
+
+#btn:hover {
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.emoji {
+    font-size: 300%;
+    width: 8rem;
+    max-width: 8rem;
+
+}
+
+.aliases {
+    text-transform: capitalize;
+    font-size: 130%;
+}
+
+.desc {
+    font-size: 130%;
+}
+
+.desc::first-letter {
+    text-transform: uppercase;
+}
+
+tr, td {
+    border-bottom: 1px solid gray;
+    padding: 5px;
+}
